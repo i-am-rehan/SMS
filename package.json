@@ -1,0 +1,23 @@
+{
+  "name": "ra-sms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ra-sms": "dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.9"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.6",
+    "inquirer": "^9.2.11"
+  }
+}
